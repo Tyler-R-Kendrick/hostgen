@@ -33,6 +33,7 @@ namespace {mainMethod.ContainingNamespace.ToDisplayString()}
         public void Initialize(GeneratorInitializationContext context)
         {
             // No initialization required for this one
+            //throw new Exception("it does work");
         }
     }
 }
